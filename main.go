@@ -16,7 +16,7 @@ const PAGE_ID string = ""
 
 const PORT string = "8080"
 const NUM_OF_THREADS int = 10
-const OUTPUT_DIR string = "/Users/minhnd/workspace/go/facebook/output"
+const OUTPUT_DIR string = ""
 
 func main() {
 	r := mux.NewRouter()
@@ -29,7 +29,7 @@ func main() {
 }
 
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, indexPage)
+	fmt.Fprintf(w, indexPage, APP_ID)
 }
 
 func TokenHandler(w http.ResponseWriter, r *http.Request) {

@@ -16,6 +16,3 @@ https://developers.facebook.com/docs/facebook-login/access-tokens/expiration-and
 - Distribute this software to all platforms
 - Allow user download messages in a time range
 - Retry or log ID of messages that failed to download
-
-### References
-- http://www.downloadmessages.com/
